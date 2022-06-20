@@ -26,3 +26,7 @@ Launch tests
 
 * molecule test -s default
 * molecule test -s second_integration
+
+Where is the intersting stuff?
+------------------------------
+In the molecule directory there are 2 example about how to launch "integration" tests using molecule look at the converge.yml files.
