@@ -1,0 +1,11 @@
+---
+
+- name: Converge
+  hosts: all
+  tasks:
+    - name: "Unit test converge"
+      ansible.builtin.debug:
+        msg: "This role can have unit tests since has not dependencies."
+    - name: "Include tme.common_stuff"
+      ansible.builtin.include_role:
+        name: "tme.common_stuff"

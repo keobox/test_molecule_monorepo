@@ -1,0 +1,7 @@
+---
+- name: Converge
+  hosts: all
+  tasks:
+    - name: "This role requires to run common_stuff before, so not unit tests here."
+      ansible.builtin.debug:
+        msg: "This role can have only integration tests since has dependencies."

@@ -1,0 +1,6 @@
+---
+# tasks file for common_stuff
+
+- name: "This is the role where common things happen"
+  debug:
+    msg: "Common stuff just happened"

@@ -1,0 +1,6 @@
+---
+# tasks file for other_stuff
+
+- name: "This is the role where other things happen"
+  debug:
+    msg: "Other stuff just happened"

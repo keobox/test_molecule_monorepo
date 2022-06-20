@@ -1,0 +1,6 @@
+---
+# tasks file for specific_stuff
+
+- name: "This is the role where specific things happen"
+  debug:
+    msg: "Specific stuff just happened"

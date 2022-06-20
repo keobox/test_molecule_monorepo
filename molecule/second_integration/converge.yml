@@ -1,0 +1,11 @@
+---
+- name: Converge
+  hosts: all
+  tasks:
+    # replace these tasks with whatever you find suitable to test
+    - name: "Include common_stuff"
+      ansible.builtin.include_role:
+        name: "common_stuff"
+    - name: "Include specific_stuff"
+      ansible.builtin.include_role:
+        name: "other_stuff"
