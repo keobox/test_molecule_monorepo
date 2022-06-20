@@ -29,4 +29,4 @@ Launch tests
 
 Where is the interesting stuff?
 ------------------------------
-In the molecule directory there are 2 example about how to launch "integration" tests using molecule look at the converge.yml files.
+In the the top level molecule directory there are 2 example about how to launch "integration" tests using molecule, look at the converge.yml files. In the molecule.yml files, which are the scenario configurations, look at the ANSIBLE_ROLES variable configuration, this configuration is critical to find the roles for the integration tests.
