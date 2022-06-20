@@ -1,10 +1,10 @@
 test_molecule_monorepo
 ----------------------
-Test multiple ansible roles in a repository
+Test multiple ansible roles in a repository.
 
 Purpose
 -------
-* Write integration tests for existing Ansible roles using molecule
+* Write integration tests for existing Ansible roles using molecule.
 * Remove duplication in case a set of roles have something in common.
 
 Prerequisites
